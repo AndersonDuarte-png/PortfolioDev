@@ -2,21 +2,22 @@ function App() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
       <section className="max-w-5xl mx-auto px-6 py-16">
-        <p className="text-sm text-cyan-400 font-medium">
-          Desenvolvedor de Soluções Corporativas
-        </p>
+
 
         <h1 className="mt-4 text-5xl font-bold tracking-tight">
           Anderson Duarte
         </h1>
-
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
-          Atuo com desenvolvimento low-code de workflows com Pega Systems,
-          criação de APIs, banco de dados, automação de processos e soluções
-          utilizando engenharia de prompt aplicada ao desenvolvimento.
+        <p className="text-sm text-cyan-400 font-medium">
+          Desenvolvedor de sofware
         </p>
 
-        <div className="mt-8 flex gap-4">
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
+          Olá, seja bem-vindo ao meu portfólio. Sou desenvolvedor com foco em
+          soluções corporativas, atuando com Pega Systems, APIs, banco de dados,
+          automação de processos e IA aplicada ao desenvolvimento.
+        </p>
+
+        <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="https://github.com/AndersonDuarte-png"
             target="_blank"
@@ -39,36 +40,17 @@ function App() {
 
       <section className="max-w-5xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold">
-          Sobre mim
-        </h2>
-
-        <p className="mt-6 max-w-3xl leading-8 text-zinc-300">
-          Sou desenvolvedor com experiência na criação de soluções corporativas
-          utilizando plataformas low-code, workflows, APIs, banco de dados e
-          automação de processos.
-        </p>
-
-        <p className="mt-4 max-w-3xl leading-8 text-zinc-300">
-          Tenho atuação com Pega Systems no desenvolvimento e manutenção de
-          aplicações empresariais, trabalhando com regras de negócio, fluxos
-          operacionais, correções, melhorias evolutivas e integração entre
-          sistemas.
-        </p>
-      </section>
-
-      <section className="max-w-5xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold">
           Áreas de atuação
         </h2>
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-zinc-800 p-6">
             <h3 className="font-semibold text-cyan-400">
-              Low-code com Pega Systems
+              Pega Systems
             </h3>
-            <p className="mt-3 text-zinc-300">
-              Desenvolvimento de workflows, regras de negócio e soluções
-              corporativas utilizando Pega Systems.
+            <p className="mt-3 text-zinc-300 leading-7">
+              Desenvolvimento low-code, workflows, regras de negócio,
+              integrações, correções e melhorias evolutivas em aplicações corporativas.
             </p>
           </div>
 
@@ -76,9 +58,9 @@ function App() {
             <h3 className="font-semibold text-cyan-400">
               APIs e integrações
             </h3>
-            <p className="mt-3 text-zinc-300">
-              Criação e manutenção de integrações entre sistemas, APIs e fluxos
-              de dados corporativos.
+            <p className="mt-3 text-zinc-300 leading-7">
+              Apoio na criação, manutenção e consumo de APIs, conectando sistemas
+              e organizando fluxos de dados entre aplicações.
             </p>
           </div>
 
@@ -86,24 +68,24 @@ function App() {
             <h3 className="font-semibold text-cyan-400">
               Banco de dados
             </h3>
-            <p className="mt-3 text-zinc-300">
-              Apoio no desenvolvimento de soluções que envolvem persistência,
-              consulta e organização de dados.
+            <p className="mt-3 text-zinc-300 leading-7">
+              Atuação com consultas, análise, organização e validação de dados
+              utilizados por sistemas corporativos.
             </p>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
             <h3 className="font-semibold text-cyan-400">
-              Engenharia de prompt
+              Automação e IA
             </h3>
-            <p className="mt-3 text-zinc-300">
-              Uso de IA aplicada ao desenvolvimento, documentação, análise de
-              problemas e produtividade técnica.
+            <p className="mt-3 text-zinc-300 leading-7">
+              Uso de Python, automações e engenharia de prompt para apoiar análise,
+              documentação, produtividade e resolução de problemas técnicos.
             </p>
           </div>
         </div>
-
       </section>
+
       <section className="max-w-5xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold">
           Experiência profissional
@@ -111,75 +93,98 @@ function App() {
 
         <div className="mt-8 space-y-6">
           <div className="rounded-xl border border-zinc-800 p-6">
-            <h3 className="text-xl font-semibold">
-              Desenvolvimento low-code com Pega Systems
-            </h3>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h3 className="text-xl font-semibold">
+                Capgemini
+              </h3>
+              <span className="text-sm text-zinc-400">
+                Dez/2025 - Atual
+              </span>
+            </div>
+
+            <p className="mt-2 text-cyan-400 font-medium">
+              Desenvolvedor Sênior
+            </p>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Atuação no desenvolvimento e manutenção de aplicações corporativas,
-              criação de workflows, regras de negócio, integrações e melhorias
-              evolutivas utilizando Pega Systems.
+              Atuação no desenvolvimento e manutenção de soluções corporativas,
+              com foco em Pega Systems, workflows, regras de negócio, integrações
+              e melhorias evolutivas.
             </p>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
-            <h3 className="text-xl font-semibold">
-              APIs, integrações e automações
-            </h3>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h3 className="text-xl font-semibold">
+                BRQ
+              </h3>
+              <span className="text-sm text-zinc-400">
+                Set/2024 - Dez/2025
+              </span>
+            </div>
+
+            <p className="mt-2 text-cyan-400 font-medium">
+              Desenvolvedor Júnior
+            </p>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Criação e manutenção de integrações entre sistemas, apoio no
-              desenvolvimento de APIs, automações com Python e organização de fluxos
-              de dados em ambientes corporativos.
+              Desenvolvimento, sustentação e evolução de aplicações, atuando com
+              correções, melhorias, integrações e apoio à automação de processos.
             </p>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
-            <h3 className="text-xl font-semibold">
-              IA aplicada ao desenvolvimento
-            </h3>
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <h3 className="text-xl font-semibold">
+                EY
+              </h3>
+              <span className="text-sm text-zinc-400">
+                Jan/2023 - Set/2024
+              </span>
+            </div>
+
+            <p className="mt-2 text-cyan-400 font-medium">
+              Trainee FSO Consulting - SDC
+            </p>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Uso de engenharia de prompt para apoio em análise de problemas,
-              documentação, produtividade técnica, estruturação de soluções e apoio ao
-              desenvolvimento de software.
+              Participação em projetos de tecnologia e consultoria, com apoio em
+              análise, documentação, processos e desenvolvimento de soluções.
             </p>
           </div>
         </div>
       </section>
+
       <section className="max-w-5xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold">
           Projetos
         </h2>
 
         <p className="mt-4 max-w-3xl text-zinc-300 leading-7">
-          Alguns projetos são estudos próprios com código disponível. Projetos corporativos com Pega Systems são descritos de forma conceitual por questões de confidencialidade.
+          Projetos pessoais e estudos práticos com foco em backend, automação,
+          integração com IA e soluções para produtividade.
         </p>
 
-
         <div className="mt-8 grid gap-4 md:grid-cols-2">
-
           <div className="rounded-xl border border-zinc-800 p-6">
             <h3 className="text-xl font-semibold text-cyan-400">
               DevRadar
             </h3>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Projeto em Python que utiliza a API do Gemini para consultar e analisar
-              estatísticas de desenvolvimento, explorando o uso de IA generativa aplicada
-              à produtividade e análise técnica.
+              Projeto que utiliza a API do Gemini para consultar e analisar
+              estatísticas de desenvolvimento, explorando IA generativa aplicada
+              à análise técnica.
             </p>
 
-            <div className="mt-4 flex gap-3">
-              <a
-                href="https://github.com/AndersonDuarte-png/IA/tree/main/DevRadar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-400 font-medium"
-              >
-                GitHub
-              </a>
-            </div>
+            <a
+              href="https://github.com/AndersonDuarte-png/IA/tree/main/DevRadar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-cyan-400 font-medium"
+            >
+              Ver no GitHub
+            </a>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
@@ -188,21 +193,18 @@ function App() {
             </h3>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Aplicação em Python criada para auxiliar na tradução de conteúdos exibidos
-              na tela, com foco em produtividade, automação e apoio ao uso diário de
-              ferramentas digitais.
+              Aplicação em Python criada para auxiliar na tradução de conteúdos
+              exibidos na tela, com foco em produtividade e automação.
             </p>
 
-            <div className="mt-4 flex gap-3">
-              <a
-                href="https://github.com/AndersonDuarte-png/Tradutor-de-tela"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-cyan-400 font-medium"
-              >
-                GitHub
-              </a>
-            </div>
+            <a
+              href="https://github.com/AndersonDuarte-png/Tradutor-de-tela"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-cyan-400 font-medium"
+            >
+              Ver no GitHub
+            </a>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
@@ -211,28 +213,21 @@ function App() {
             </h3>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              API para simulação de empréstimos utilizando regras de negócio, cálculo de parcelas, validações e estrutura backend com Python.
+              API para simulação de empréstimos, com cálculo de parcelas,
+              validações, regras de negócio e estrutura backend com Python.
             </p>
-
-            <div className="mt-4 flex gap-3">
-              <a href="#" className="text-cyan-400 font-medium">
-                GitHub
-              </a>
-            </div>
           </div>
 
           <div className="rounded-xl border border-zinc-800 p-6">
             <h3 className="text-xl font-semibold text-cyan-400">
-              Projetos corporativos com Pega Systems
+              Projetos corporativos
             </h3>
 
             <p className="mt-3 text-zinc-300 leading-7">
-              Atuação em aplicações empresariais envolvendo workflows, regras de negócio, integrações, APIs, correções e melhorias evolutivas.
+              Experiência em aplicações empresariais com workflows, regras de
+              negócio, integrações, APIs, correções e melhorias evolutivas.
             </p>
           </div>
-
-
-
         </div>
       </section>
     </main>
