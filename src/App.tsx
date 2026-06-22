@@ -8,7 +8,7 @@ function App() {
           Anderson Duarte
         </h1>
         <p className="text-sm text-cyan-400 font-medium">
-          Desenvolvedor de sofware
+          Desenvolvedor de Software
         </p>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
