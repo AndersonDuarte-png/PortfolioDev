@@ -26,7 +26,7 @@ export const translations = {
       title: 'Áreas de atuação',
       cards: [
         {
-          title: 'Low-code com Pega Systems',
+          title: 'Pega Systems',
           description:
             'Desenvolvimento de workflows, regras de negócio e soluções corporativas utilizando Pega Systems.',
         },
@@ -52,7 +52,7 @@ export const translations = {
       title: 'Experiência profissional',
       cards: [
         {
-          title: 'Desenvolvimento low-code com Pega Systems',
+          title: 'Desenvolvimento Pega Systems',
           description:
             'Atuação no desenvolvimento e manutenção de aplicações corporativas, criação de workflows, regras de negócio, integrações e melhorias evolutivas utilizando Pega Systems.',
         },
@@ -139,7 +139,7 @@ export const translations = {
       title: 'Areas of expertise',
       cards: [
         {
-          title: 'Low-code with Pega Systems',
+          title: 'Pega Systems',
           description:
             'Development of workflows, business rules, and enterprise solutions using Pega Systems.',
         },
@@ -165,7 +165,7 @@ export const translations = {
       title: 'Professional experience',
       cards: [
         {
-          title: 'Low-code development with Pega Systems',
+          title: 'Pega Systems',
           description:
             'Experience developing and maintaining enterprise applications, including workflows, business rules, integrations, and continuous improvements using Pega Systems.',
         },
