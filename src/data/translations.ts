@@ -50,21 +50,50 @@ export const translations = {
 
     experience: {
       title: 'Experiência profissional',
-      cards: [
+      items: [
         {
-          title: 'Desenvolvimento Pega Systems',
-          description:
-            'Atuação no desenvolvimento e manutenção de aplicações corporativas, criação de workflows, regras de negócio, integrações e melhorias evolutivas utilizando Pega Systems.',
+          company: 'Capgemini',
+          role: 'Desenvolvedor Sênior',
+          period: 'Dez/2025 – Atual',
+          activities: [
+            'Desenvolvimento e manutenção de soluções corporativas utilizando Pega Systems.',
+            'Implementação de workflows, regras de negócio e melhorias em processos internos.',
+            'Criação e manutenção de integrações entre sistemas e APIs.',
+            'Análise e correção de bugs, atuando na evolução contínua da aplicação.',
+          ],
         },
         {
-          title: 'APIs, integrações e automações',
-          description:
-            'Criação e manutenção de integrações entre sistemas, apoio no desenvolvimento de APIs, automações com Python e organização de fluxos de dados em ambientes corporativos.',
+          company: 'BRQ',
+          role: 'Desenvolvedor Júnior',
+          period: 'Set/2024 – Dez/2025',
+          activities: [
+            'Desenvolvimento de aplicações corporativas na plataforma Pega Systems.',
+            'Criação e manutenção de workflows, regras de negócio e componentes reutilizáveis.',
+            'Desenvolvimento de funcionalidades de back-end e front-end dentro da plataforma.',
+            'Atuação em correções, melhorias evolutivas e suporte técnico à aplicação.',
+          ],
         },
         {
-          title: 'IA aplicada ao desenvolvimento',
-          description:
-            'Uso de engenharia de prompt para apoio em análise de problemas, documentação, produtividade técnica e estruturação de soluções.',
+          company: 'EY',
+          role: 'Trainee FSO Consulting – SDC',
+          period: 'Jan/2023 – Set/2024',
+          activities: [
+            'Atuação em projetos corporativos utilizando Pega Systems.',
+            'Desenvolvimento de workflows, processos e regras de negócio.',
+            'Apoio na construção de funcionalidades de front-end e back-end na plataforma.',
+            'Análise e resolução de bugs em ambiente corporativo.',
+          ],
+        },
+        {
+          company: 'Banco Carrefour',
+          role: 'Estagiário de Auditoria',
+          period: 'Mar/2021 – Dez/2022',
+          activities: [
+            'Desenvolvimento de automações para auditoria e segurança da informação.',
+            'Criação de indicadores para monitoramento contínuo de controles internos.',
+            'Desenvolvimento de scripts utilizando Python e Shell Script.',
+            'Geração de relatórios automatizados com Power BI.',
+          ],
         },
       ],
     },
@@ -163,21 +192,50 @@ export const translations = {
 
     experience: {
       title: 'Professional experience',
-      cards: [
+      items: [
         {
-          title: 'Pega Systems',
-          description:
-            'Experience developing and maintaining enterprise applications, including workflows, business rules, integrations, and continuous improvements using Pega Systems.',
+          company: 'Capgemini',
+          role: 'Senior Developer',
+          period: 'Dec/2025 – Present',
+          activities: [
+            'Development and maintenance of enterprise solutions using Pega Systems.',
+            'Implementation of workflows, business rules, and improvements to internal processes.',
+            'Creation and maintenance of system integrations and APIs.',
+            'Bug analysis and fixes, contributing to the continuous evolution of the application.',
+          ],
         },
         {
-          title: 'APIs, integrations, and automation',
-          description:
-            'Development and maintenance of system integrations, support in API development, Python automation, and data flow organization in enterprise environments.',
+          company: 'BRQ',
+          role: 'Junior Developer',
+          period: 'Sep/2024 – Dec/2025',
+          activities: [
+            'Development of enterprise applications using Pega Systems.',
+            'Creation and maintenance of workflows, business rules, and reusable components.',
+            'Development of back-end and front-end features within the platform.',
+            'Work on bug fixes, continuous improvements, and technical support for the application.',
+          ],
         },
         {
-          title: 'AI applied to development',
-          description:
-            'Use of prompt engineering to support problem analysis, documentation, technical productivity, and solution design.',
+          company: 'EY',
+          role: 'FSO Consulting Trainee – SDC',
+          period: 'Jan/2023 – Sep/2024',
+          activities: [
+            'Work on enterprise projects using Pega Systems.',
+            'Development of workflows, processes, and business rules.',
+            'Support in building front-end and back-end features within the platform.',
+            'Analysis and resolution of bugs in enterprise applications.',
+          ],
+        },
+        {
+          company: 'Banco Carrefour',
+          role: 'Audit Intern',
+          period: 'Mar/2021 – Dec/2022',
+          activities: [
+            'Development of automation solutions for audit and information security.',
+            'Creation of indicators for continuous monitoring of internal controls.',
+            'Development of scripts using Python and Shell Script.',
+            'Generation of automated reports using Power BI.',
+          ],
         },
       ],
     },

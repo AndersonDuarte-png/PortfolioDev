@@ -77,18 +77,28 @@ function App() {
       </h2>
 
       <div className="mt-8 space-y-4">
-        {t.experience.cards.map((card) => (
+        {t.experience.items.map((experience) => (
           <div
-            key={card.title}
+            key={`${experience.company}-${experience.role}`}
             className="rounded-xl border border-zinc-800 p-6"
           >
-            <h3 className="text-xl font-semibold">
-              {card.title}
-            </h3>
+            <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+              <h3 className="text-xl font-semibold">
+                {experience.company} — {experience.role}
+              </h3>
 
-            <p className="mt-3 text-zinc-300 leading-7">
-              {card.description}
-            </p>
+              <span className="text-sm text-zinc-400">
+                {experience.period}
+              </span>
+            </div>
+
+            <ul className="mt-4 space-y-2 text-zinc-300 leading-7">
+              {experience.activities.map((activity) => (
+                <li key={activity}>
+                  • {activity}
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
